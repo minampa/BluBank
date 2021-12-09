@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.nav-bar {
+  position: relative;
+  align-items: flex-start;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 2rem;
+  padding-right: 5rem;
+  /* padding: 1rem; */
+  padding-top: 2px;
+}
+
+.nav-item {
+  margin-right: 5rem;
+  padding-top: 1rem;
+  display: inline;
+  float: left;
+}
+
+.arrow-cadr {
+  margin-left: 5rem;
+  background-color: black;
+  color: white;
+  width: 3rem;
+  height: 1.5rem;
+  text-align: center;
+  justify-items: flex-start;
+  float: left;
+  justify-items: left;
+  margin-right: 1rem;
+  
+}
+
+.content {
+  text-align: justify;
+  padding: 5rem;
+}
+
+.social {
+  background-color: lightblue;
+  margin: 5rem;
+}
+
+.flex {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* .curved-text {
+  margin-bottom: {overlap ? -${r}px : 0};
+  width: ${d + feOffset*2}
+}
+
+const CurvedText = styled.div`
+    margin-bottom: ${overlap ? `-${r}px` : '0'};
+    width: ${d + offset * 2}px;
+    height: ${r + offset}px;
+    path {
+      fill: transparent;
+    }
+    text {
+      fill: currentColor;
+      text-anchor: middle;
+    }
+    ` */

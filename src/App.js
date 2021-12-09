@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Customer from './components/Customer';
+import Header from './components/Header';
+import ShopContainer from './components/ShopContainer';
+import SmartBank from './components/SmartBank';
+import Social from './components/Social';
 
-function App() {
+function App(props) {
+  const [shopHeaders] = useState([
+    {
+        h4: "1.5% cashback"
+    },
+    {
+        h4: "30-day terms"
+    },
+    {
+        h4: "Save Money"
+    }
+])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <SmartBank />
+      <ShopContainer />
+      <Social />
+      <Customer />
     </div>
   );
 }
