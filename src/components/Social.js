@@ -3,7 +3,7 @@ import React from 'react'
 function Social() {
     return (
         <div className="social">
-            <div className="flex">
+            <div className="flex content">
                 <h4>We Building Social uniqueness</h4>
                 <p>The marketing strategy lays out target markets and the value</p>
             </div>

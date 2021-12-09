@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import reactDom from 'react-dom';
 import './App.css';
 import Customer from './components/Customer';
 import Header from './components/Header';
@@ -7,17 +8,7 @@ import SmartBank from './components/SmartBank';
 import Social from './components/Social';
 
 function App(props) {
-  const [shopHeaders] = useState([
-    {
-        h4: "1.5% cashback"
-    },
-    {
-        h4: "30-day terms"
-    },
-    {
-        h4: "Save Money"
-    }
-])
+  
   
   return (
     <div className="App">

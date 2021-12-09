@@ -1,21 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Shop from './Shop'
 
 function ShopContainer(props) {
+    const [shops] = useState([
+        {
+            header: "1.5% cashback"
+        },
+        {
+            header: "30-day terms"
+        },
+        {
+            header: "Save Money"
+        }
+    ])
     return (
-        <div>
+        
+        <div className='shop-container'>
             <div>
-                <h2>
+                <h3>
                     Hot <img src="../../images/fire.svg" /> 
-                </h2>
-                <h2>deals for you</h2>
-                <p>Online shopping for retail sales direct to consumers</p>
+                </h3>
+                <h3>deals for you</h3>
+                <p className='paragaph'>Online shopping for retail sales direct to consumers</p>
+                
             </div>
 
             
-            {/* {props.shops.map(shops => (
-                <Shop shops={shops} />
-            ))} */}
+            {shops.map((shop) => (
+                <Shop  header={shop.header}  />            
+            ))}
         
         </div>
     )
