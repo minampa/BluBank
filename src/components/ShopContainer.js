@@ -16,7 +16,7 @@ function ShopContainer(props) {
     return (
         
         <div className='shop-container'>
-            <div>
+            <div className='shop'>
                 <h3>
                     Hot <img src="../../images/fire.svg" /> 
                 </h3>

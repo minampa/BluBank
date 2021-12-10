@@ -7,8 +7,8 @@ function Header() {
                 <li className="nav-item">ABOUT</li>
                 <li className="nav-item">HOW IT WORKS</li>
                 <li className="nav-item">CONTENT</li>
-                <li>
-                    <img src="../../images/logo.svg" />    
+                <li className='blu'>
+                    <img src="../../images/logo.svg" className='blu' />    
                 </li>
             </ul>
             

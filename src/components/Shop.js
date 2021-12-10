@@ -1,19 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 function Shop(props) {
-    const [shops] = useState([
-        {
-            header: "1.5% cashback"
-        },
-        {
-            header: "30-day terms"
-        },
-        {
-            header: "Save Money"
-        }
-    ])
+  
     return (
         <div className="shop">
+            <img src="../../images/ax.svg" />
             <h4 className="header4">
                 <span>{props.header}</span>
             </h4>

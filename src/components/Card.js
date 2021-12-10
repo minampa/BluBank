@@ -48,12 +48,10 @@ import { faArrowCircleRight, faFire, faHorse} from '@fortawesome/free-solid-svg-
 function Card() {
     return (
         <div className="card-wrapper">
-            <div className="card">
+            <div className="main-card">
                 <div className="c">
                     {/* <img src="" />  */}
-                    <FontAwesomeIcon icon = {faHorse} />
-                    <FontAwesomeIcon icon = {faFire}  />
-                    <FontAwesomeIcon icon = {faArrowCircleRight} />
+                    
                     
                 </div>
             </div>

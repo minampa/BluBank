@@ -14,6 +14,8 @@ code {
 .nav-bar {
   position: relative;
   align-items: flex-start;
+  display: flex;
+ 
 }
 
 .nav {
@@ -22,43 +24,126 @@ code {
   padding-right: 5rem;
   /* padding: 1rem; */
   padding-top: 2px;
+  font-size: 10px;
+  display: flex;
 }
 
 .nav-item {
-  margin-right: 5rem;
-  padding-top: 1rem;
+  /* margin-right: 5rem; */
+  /* padding-top: 1rem; */
   display: inline;
   float: left;
+  font-size: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.main-header {
+  display: flex;
+}
+
+.shopping-bag {
+  margin: auto;
+  padding: auto;
+  background-color: white;
+}
+
+.card {
+  width: 22rem;
+  height: 10rem;
+  margin-left: 8rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.left-card {
+  background-color: rgb(61, 117, 182);
+  width: 70%;
+}
+
+.right-card {
+  background-color: rgb(255, 200, 17);
+  width: 30%;
+}
+
+.social-media {
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+}
+
+.blu {
+  margin-left: 3.5rem;
+  padding: 0.05rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+}
+
+.smart-bank{
+  width: 12rem;
+}
+
+.main-smart {
+  display: flex;
 }
 
 .arrow-cadr {
   margin-left: 5rem;
   background-color: black;
   color: white;
-  width: 3rem;
+  width: 2rem;
   height: 1.5rem;
   text-align: center;
   justify-items: flex-start;
   float: left;
   justify-items: left;
   margin-right: 1rem;
+  padding: auto;
+  margin: auto;
   
 }
 
+.get-card {
+  margin: 1rem;
+  padding-left: 1.5rem;
+}
+
 .content {
-  text-align: justify;
-  padding: 5rem;
+  text-align: left;
+  padding-left: 10%;
 }
 
 .shop{
   padding-left: 2rem;
   padding-right: 2rem;
+  width: 22%;
+  display: inline-block;
+  text-align: left;
+}
+
+.handoff {
+  width: 17rem;
+}
+
+.strategic {
+  padding-left: 6rem;
+  width: 22%;
+  text-align: left;
 }
 
 .social {
   background-color: lightblue;
   display: flex;
   margin: 5rem;
+  height: 15rem;
+}
+
+.social-component {
+ justify-content: center;
+ align-items: center;
+ margin-left: 6rem;
+
+  
 }
 
 .flex {
@@ -69,6 +154,33 @@ code {
 .shop-container {
   display: flex;
   margin: 5rem;
+  /* width: 80%; */
+}
+
+.dark-blue {
+  background-color: rgb(61, 117, 182);
+  height: 10rem;
+  display: flex;
+  margin: 5rem;
+  height: 14rem;
+
+}
+
+.updated-news {
+  width: 10rem;
+  display: flex;
+  margin: 1rem;
+}
+
+.line{
+  background-color: rgb(153, 114, 17);
+  width: 0.25rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  background-color: rgb(209, 88, 44);
 }
 
 p {
@@ -80,6 +192,20 @@ p {
   align-items: left;
   justify-content: left;
 }
+
+.footer {
+  display: flex;
+}
+
+.name {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.info-name {
+  color: gray;
+}
+
 /* .curved-text {
   margin-bottom: {overlap ? -${r}px : 0};
   width: ${d + feOffset*2}
