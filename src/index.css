@@ -2,6 +2,7 @@ body {
   margin: 0;
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace; */
+  background-color: rgb(235, 246, 230);
   
 }
 
@@ -40,6 +41,11 @@ code {
 
 .main-header {
   display: flex;
+}
+
+.lock {
+  margin: auto;
+  padding: auto;
 }
 
 .shopping-bag {
@@ -103,6 +109,15 @@ code {
   
 }
 
+.arrow {
+  margin-top: 10%;
+}
+
+.icons {
+  width: 100%;
+  height: 100%;
+}
+
 .get-card {
   margin: 1rem;
   padding-left: 1.5rem;
@@ -121,6 +136,26 @@ code {
   text-align: left;
 }
 
+.custom-handoff {
+  display: flex;
+}
+
+.main-custom {
+  background-color: lightblue;
+  width: 20rem;
+  margin-left: 2rem;
+  
+}
+
+.custom {
+  background-color: white;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  position: inherit;
+  right: -4rem;
+  
+}
+
 .handoff {
   width: 17rem;
 }
@@ -136,6 +171,7 @@ code {
   display: flex;
   margin: 5rem;
   height: 15rem;
+  align-items: center;
 }
 
 .social-component {
@@ -180,7 +216,11 @@ code {
 }
 
 .btn {
-  background-color: rgb(209, 88, 44);
+  background-color: rgb(214, 109, 71);
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {
@@ -200,10 +240,14 @@ p {
 .name {
   display: inline-block;
   margin: 1rem;
+  border: 0.5px solid rgb(221, 219, 219);
+  margin: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .info-name {
-  color: gray;
+  color: rgb(185, 181, 181);
 }
 
 /* .curved-text {

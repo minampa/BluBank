@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import reactDom from 'react-dom';
 import './App.css';
-import Custom from './components/Custom';
 import Customer from './components/Customer';
 import DarkBlue from './components/DarkBlue';
 import Footer from './components/Footer';
@@ -23,7 +22,6 @@ function App(props) {
       <ShopContainer />
       <Social />
       <Customer />
-      <Custom />
       <Handoff />
       <DarkBlue />
       <Footer />

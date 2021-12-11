@@ -2,7 +2,15 @@ import React from 'react'
 
 function Handoff() {
     return (
-        <div>
+        <div className='custom-handoff'>
+            <div className='main-custom'> 
+                <div className='custom'>
+                    <h5>Custom.F</h5>
+                    <h6>All years activity</h6>
+                    <h6>2012</h6>
+                </div>
+            </div>
+
             <div className='content handoff'>
                 <h1>Handoff your work smarter now</h1>
                 <p>Create documentation for the collaborators (i.e. designers or devs) directly in your design file.</p>

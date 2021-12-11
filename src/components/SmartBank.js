@@ -20,10 +20,10 @@ function SmartBank() {
             <div>
                 <div className='card'>
                     <div className="left-card">
-
+                    
                     </div>
                     <div className="right-card">
-
+                        <img src='../../images/icons.svg' className='icons'></img>
                     </div>
                 </div>
             </div>
