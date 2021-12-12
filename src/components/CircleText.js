@@ -4,7 +4,7 @@ function CircleText(props) {
     
     return (
         <div>
-            
+            <img src='../../images/circleText.svg' />
         </div>
     )
 }

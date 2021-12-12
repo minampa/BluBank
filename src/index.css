@@ -48,27 +48,63 @@ code {
   padding: auto;
 }
 
-.shopping-bag {
-  margin: auto;
-  padding: auto;
-  background-color: white;
+.empty-space {
+  height: 1.3rem;
+}
+
+.fire {
+  display: inline-table;
+  width: 1rem;
+  margin-left: 0.5rem;
+  
+}
+
+.fire-container {
+  display: flex;
 }
 
 .card {
-  width: 22rem;
-  height: 10rem;
-  margin-left: 8rem;
+  width: 25rem;
+  height: 11rem;
+  margin-left: 7rem;
   margin-top: 2rem;
   display: flex;
 }
 
+.rotate-card{
+  width: 25rem;
+  position: relative;
+  top: -6rem;
+  right: 1.5rem;
+}
+
+.visa-card {
+  width: 15rem;
+  height: 30rem;
+
+}
+
+.circle-text {
+  height: 10rem;
+  position: relative;
+  top: 5rem;
+  right: 15rem;
+  /* background-color: red; */
+}
+
+.text-pic {
+  width: 10rem;
+}
+
+
 .left-card {
-  background-color: rgb(61, 117, 182);
+  background-color: rgb(81, 145, 218);
   width: 70%;
+  display: flex;
 }
 
 .right-card {
-  background-color: rgb(255, 200, 17);
+  background-color: rgb(243, 239, 23);
   width: 30%;
 }
 
@@ -87,6 +123,7 @@ code {
 
 .smart-bank{
   width: 12rem;
+  font-size: large;
 }
 
 .main-smart {
@@ -140,30 +177,50 @@ code {
   display: flex;
 }
 
-.main-custom {
-  background-color: lightblue;
-  width: 20rem;
-  margin-left: 2rem;
-  
+
+
+.custom-card {
+  height: 30rem;
 }
 
-.custom {
-  background-color: white;
-  margin: 2rem;
-  border-radius: 0.5rem;
-  position: inherit;
-  right: -4rem;
-  
+
+
+.customer {
+  padding-bottom: 2rem;
+}
+
+.custom-card {
+  width: 30rem;
 }
 
 .handoff {
   width: 17rem;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.handoff-container {
+  
+  
 }
 
 .strategic {
-  padding-left: 6rem;
-  width: 22%;
+  width: 17rem;
+  margin-left: 2rem;
   text-align: left;
+  display: flex;
+  margin: auto;
+  padding: auto;
+}
+
+.group {
+  padding: auto;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+}
+
+.group-pic {
+  width: 1rem;
 }
 
 .social {
@@ -194,7 +251,7 @@ code {
 }
 
 .dark-blue {
-  background-color: rgb(61, 117, 182);
+  background-color: rgb(81, 145, 218);
   height: 10rem;
   display: flex;
   margin: 5rem;
@@ -221,6 +278,8 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  
 }
 
 p {
@@ -249,21 +308,3 @@ p {
 .info-name {
   color: rgb(185, 181, 181);
 }
-
-/* .curved-text {
-  margin-bottom: {overlap ? -${r}px : 0};
-  width: ${d + feOffset*2}
-}
-
-const CurvedText = styled.div`
-    margin-bottom: ${overlap ? `-${r}px` : '0'};
-    width: ${d + offset * 2}px;
-    height: ${r + offset}px;
-    path {
-      fill: transparent;
-    }
-    text {
-      fill: currentColor;
-      text-anchor: middle;
-    }
-    ` */

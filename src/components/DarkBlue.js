@@ -1,7 +1,6 @@
 import React from 'react'
 import CircleText from './CircleText'
 import { Button } from '@material-ui/core'
-import Card from './Card'
 
 function DarkBlue() {
     return (
@@ -14,10 +13,11 @@ function DarkBlue() {
             <div className='content handoff'>
                 <h1>Subscribe Our Newsletter</h1>
                 <div className='btn'>
-                    <Button>Subscribe</Button>
+                    <Button className='btn'>Subscribe</Button>
                 </div>
             </div>
-            <Card />
+            <img src="../../images/visaCard2.svg" className='visa-card'/>
+
         </div>
     )
 }
